@@ -9,8 +9,8 @@ const ApresentationSection = () => {
                 <span>Entusiasmado desenvolvedor web</span>
             </article>
             <article>
-                <a href="https://github.com/brenorosado"><BsGithub /></a>
-                <a href="https://www.linkedin.com/in/brenorosado/"><BsLinkedin /></a>
+                <a href="https://github.com/brenorosado" target="_blank"><BsGithub /></a>
+                <a href="https://www.linkedin.com/in/brenorosado/" target="_blank"><BsLinkedin /></a>
             </article>
         </Section>
     );

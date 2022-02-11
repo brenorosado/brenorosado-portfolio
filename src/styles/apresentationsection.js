@@ -16,7 +16,7 @@ const gradientAnimation = keyframes`
 `;
 
 export const Section = styled.section`
-    margin-top: 20px;
+    margin: 20px 0px;
     width: 95%;
     display: flex;
     justify-content: space-between;
