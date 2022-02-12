@@ -8,7 +8,7 @@ export const HomeMain = styled.main`
     align-items: center;
 
     h2 {
-        font-size: 31px;
+        font-size: 30px;
 
         ${media.tablet`
             font-size: 40px;

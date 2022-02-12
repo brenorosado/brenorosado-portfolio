@@ -4,7 +4,7 @@ import { Section, AllProjectsLink } from "../styles/projectssection";
 const ProjectsSection = () => {
     return (
         <>
-            <h2>Meus projetos</h2>
+            <h2>Projetos</h2>
             <Section>
                 <ProjectCard 
                     name="Loja de HQ's da Marvel" 

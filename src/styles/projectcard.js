@@ -3,7 +3,7 @@ import { gradientAnimation } from "./apresentationsection";
 
 const projectCardHoverAnimation = keyframes`
     to {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 `;
 

@@ -3,6 +3,7 @@ import ProjectsSection from '../src/components/ProjectsSection';
 import { HomeMain } from '../src/styles/homepage';
 import Head from 'next/head';
 import ContactSection from '../src/components/ContactSection';
+import CurriculumSection from '../src/components/CurriculumSection';
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
       <HomeMain>
         <ApresentationSection />
         <ProjectsSection />
-        {/* <ContactSection /> */}
+        <ContactSection />
+        <CurriculumSection />
       </HomeMain>
     </>
   );

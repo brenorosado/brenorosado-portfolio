@@ -1,6 +1,6 @@
 import { Section } from "../styles/contactsection";
 import { BsWhatsapp, BsGithub, BsLinkedin } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+import { FiAtSign } from "react-icons/fi";
 
 const ContactSection = () => {
     return (
@@ -8,9 +8,9 @@ const ContactSection = () => {
             <h2>Contato</h2>
             <div>
                 <a><BsWhatsapp /></a>
+                <a><FiAtSign /></a>
                 <a><BsGithub /></a>
                 <a><BsLinkedin /></a>
-                <a><MdEmail /></a>
             </div>
         </Section>
     );

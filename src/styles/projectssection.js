@@ -28,7 +28,7 @@ export const AllProjectsLink = styled.div`
     border-radius: 5px;
     cursor: pointer;
     color: #1e1e1e;
-    padding: 1px;
+    padding: 2px;
     width: 160px;
     height: 50px;
 
@@ -40,7 +40,7 @@ export const AllProjectsLink = styled.div`
         justify-content: center;
         align-items: center;
         color: #e1e1e1;
-        height: 48px;
+        height: 46px;
         transition: 0.2s background;
         transition: 0.2s font-size;
 
