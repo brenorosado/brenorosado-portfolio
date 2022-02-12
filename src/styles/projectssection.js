@@ -22,3 +22,29 @@ export const Section = styled.section`
         width: 40%;
     `}
 `;
+
+export const AllProjectsLink = styled.div`
+    background: linear-gradient(-45deg, #ff0086, #e7218c, #c012c8, #9506bf);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1e1e1e;
+    padding: 1px;
+    width: 140px;
+    height: 35px;
+
+    a {
+        position: relative;
+        background: #1e1e1e;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #e1e1e1;
+        height: 33px;
+        transition: 0.2s background;
+
+        :hover {
+            background: #262626;
+        }
+    }
+`;

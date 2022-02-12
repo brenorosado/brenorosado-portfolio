@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import media from './media';
 
-const gradientAnimation = keyframes`
+export const gradientAnimation = keyframes`
     0% {
         background-position: 0 50%;
     }
