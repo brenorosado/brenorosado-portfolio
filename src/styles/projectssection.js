@@ -29,22 +29,25 @@ export const AllProjectsLink = styled.div`
     cursor: pointer;
     color: #1e1e1e;
     padding: 1px;
-    width: 140px;
-    height: 35px;
+    width: 160px;
+    height: 50px;
 
     a {
-        position: relative;
+        text-decoration: none;
         background: #1e1e1e;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
         color: #e1e1e1;
-        height: 33px;
+        height: 48px;
         transition: 0.2s background;
+        transition: 0.2s font-size;
 
         :hover {
             background: #262626;
+            font-size: 18px;
+            font-weight: bold;
         }
     }
 `;

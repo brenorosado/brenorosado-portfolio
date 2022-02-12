@@ -21,7 +21,7 @@ const ProjectsSection = () => {
                     imagePath="https://user-images.githubusercontent.com/83065685/153673178-5a81536b-4b12-4f8d-87ca-5f09fb53c3a2.png"
                 />
             </Section>
-            <AllProjectsLink><a>Todos projetos</a></AllProjectsLink>
+            <AllProjectsLink><a href="https://github.com/brenorosado" target="_blank">Todos projetos</a></AllProjectsLink>
         </>
     );
 };
