@@ -2,8 +2,8 @@ import ApresentationSection from '../src/components/ApresentationSection';
 import ProjectsSection from '../src/components/ProjectsSection';
 import { HomeMain } from '../src/styles/homepage';
 import Head from 'next/head';
-import ContactSection from '../src/components/ContactSection';
 import CurriculumSection from '../src/components/CurriculumSection';
+import StackSection from '../src/components/StackSection';
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <HomeMain>
         <ApresentationSection />
         <ProjectsSection />
-        <ContactSection />
+        <StackSection />
         <CurriculumSection />
       </HomeMain>
     </>

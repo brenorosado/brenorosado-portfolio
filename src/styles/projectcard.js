@@ -8,6 +8,8 @@ const projectCardHoverAnimation = keyframes`
 `;
 
 export const ProjectContainerArticle = styled.article`
+    cursor: pointer;
+
     :hover {
         animation: 0.3s ease-out ${projectCardHoverAnimation} forwards;
     }

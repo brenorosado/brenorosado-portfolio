@@ -4,6 +4,7 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 
     div {
         margin: 20px 0px;
@@ -16,12 +17,12 @@ export const Section = styled.section`
         height: 50px;
 
         a {
-            text-decoration: none;
-            background: #1e1e1e;
-            border-radius: 5px;
             display: flex;
             justify-content: center;
             align-items: center;
+            background: #1e1e1e;
+            border-radius: 5px;
+            text-decoration: none;
             color: #e1e1e1;
             height: 46px;
             transition: 0.2s background;
