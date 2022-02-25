@@ -1,27 +1,19 @@
 import styled, { keyframes } from "styled-components";
-import { gradientAnimation } from "./apresentationsection";
 
 const projectCardHoverAnimation = keyframes`
     to {
-        transform: translateY(-5px);
+        transform: scale(101%);
     }
 `;
 
 export const ProjectContainerArticle = styled.article`
     cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
 
     :hover {
         animation: 0.3s ease-out ${projectCardHoverAnimation} forwards;
     }
-`;
-
-export const ProjectContent = styled.div`
-    background: linear-gradient(-45deg, #ff0086, #e7218c, #c012c8, #9506bf);
-    background-size: 300% 300%;
-    border-radius: 5px;
-    padding: 2px;
-    width: 340px;
-    animation: ${gradientAnimation} 3s ease-in infinite;
 `;
 
 export const ProjectWrapperLink = styled.a`
@@ -30,15 +22,15 @@ export const ProjectWrapperLink = styled.a`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #262626;
+    background-color: black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 
-        h3 {
+        h4 {
             width: 100%;
             text-align: center;
-            padding-bottom: 6px;
+            padding-bottom: 10px;
         }
 
         p {
@@ -47,7 +39,7 @@ export const ProjectWrapperLink = styled.a`
 `;
 
 export const ButtonsContainer = styled.div`
-    background-color: #262626;
+    background-color: black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 100%;
@@ -59,18 +51,18 @@ export const ButtonsContainer = styled.div`
 
 export const ProjectLink = styled.a`
     width: 49%;
-    height: 50px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer;
     transition: font-size 0.2s;
 
     :hover {
-        font-size: 30px;
+        font-size: 25px;
     }
 `;

@@ -7,29 +7,21 @@ export const Section = styled.section`
     margin-bottom: 30px;
 
     div {
-        margin: 20px 0px;
-        background: linear-gradient(-45deg, #ff0086, #e7218c, #c012c8, #9506bf);
-        border-radius: 5px;
-        cursor: pointer;
-        color: #1e1e1e;
-        padding: 2px;
-        width: 160px;
-        height: 50px;
-
+        margin: 10px 0px;
         a {
+            border: 1px solid white;
+            text-decoration: none;
+            background: black;
+            border-radius: 5px;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #1e1e1e;
-            border-radius: 5px;
-            text-decoration: none;
             color: #e1e1e1;
-            height: 46px;
-            transition: 0.2s background;
+            height: 48px;
+            padding: 15px;
             transition: 0.2s font-size;
 
             :hover {
-                background: #262626;
                 font-size: 18px;
                 font-weight: bold;
             }

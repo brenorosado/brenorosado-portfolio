@@ -1,4 +1,4 @@
-import { SiJavascript, SiNextdotjs, SiReact, SiNodedotjs, SiStyledcomponents, SiHtml5, SiCss3, SiCypress } from 'react-icons/si';
+import { SiJavascript, SiNextdotjs, SiReact, SiNodedotjs, SiStyledcomponents, SiHtml5, SiCss3, SiCypress, SiMysql } from 'react-icons/si';
 import { Section, StackIcon } from '../styles/stacksection';
 
 const StackSection = () => {
@@ -37,6 +37,10 @@ const StackSection = () => {
                 <StackIcon color="grey">
                     <SiCypress />
                     <span>Cypress</span>
+                </StackIcon>
+                <StackIcon color="#f29111">
+                    <SiMysql />
+                    <span>MySQL</span>
                 </StackIcon>
             </div>
         </Section>
