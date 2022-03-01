@@ -1,13 +1,16 @@
 import { GlobalStyle } from '../src/styles/global';
 import './_app.css';
-import Footer from '../src/components/Footer';
+import Menu from '../src/components/Menu';
+import { useRef } from 'react';
 
 const App = ({ Component, pageProps }) => {
+  const pageRef = useRef(null);
+
   return (
     <>
+      <Menu ref={pageRef} />
       <GlobalStyle />
-      <Component {...pageProps} />
-      <Footer />
+      <Component {...pageProps} ref={pageRef} />
     </>
   );
 };

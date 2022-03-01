@@ -2,7 +2,14 @@ import styled from "styled-components";
 import media from "./media";
 
 export const Section = styled.section`
-    width: 70%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const ProjectsContainer = styled.div`
     display: grid;
     grid-template-columns: 1;
     grid-gap: 20px;

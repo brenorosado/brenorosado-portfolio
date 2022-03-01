@@ -1,11 +1,11 @@
 import ProjectCard from "./ProjectCard";
-import { Section, AllProjectsLink } from "../styles/projectssection";
+import { Section, ProjectsContainer, AllProjectsLink } from "../styles/projectssection";
 
 const ProjectsSection = () => {
     return (
-        <>
+        <Section id="projects-section">
             <h2>Projetos</h2>
-            <Section>
+            <ProjectsContainer>
                 <ProjectCard 
                     name="Loja de HQ's da Marvel" 
                     key="lojaMarvel"
@@ -48,9 +48,9 @@ const ProjectsSection = () => {
                     codeLink="https://github.com/brenorosado/desafio-front-end-eqi"
                     imagePath="https://user-images.githubusercontent.com/83065685/155766587-4fe181f9-d721-4b20-bddd-59a745904c28.png"
                 />
-            </Section>
+            </ProjectsContainer>
             <AllProjectsLink><a href="https://github.com/brenorosado" target="_blank">Todos projetos</a></AllProjectsLink>
-        </>
+        </Section>
     );
 };
 

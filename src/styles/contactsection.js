@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import media from "./media";
 
-export const FooterContainer = styled.footer`
+export const Section = styled.section`
     width: 100%;
-    height: 80px;
-    background-color: black;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
 
     div {
         width: 100%;

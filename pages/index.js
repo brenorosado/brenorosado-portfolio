@@ -1,9 +1,9 @@
-import ApresentationSection from '../src/components/ApresentationSection';
 import ProjectsSection from '../src/components/ProjectsSection';
 import { HomeMain } from '../src/styles/homepage';
 import Head from 'next/head';
 import CurriculumSection from '../src/components/CurriculumSection';
 import StackSection from '../src/components/StackSection';
+import ContactSection from '../src/components/ContactSection';
 
 const Home = () => {
   return (
@@ -14,10 +14,10 @@ const Home = () => {
         <link rel="icon" href="/logo.ico" />
       </Head>
       <HomeMain>
-        <ApresentationSection />
         <ProjectsSection />
         <StackSection />
         <CurriculumSection />
+        <ContactSection />
       </HomeMain>
     </>
   );
