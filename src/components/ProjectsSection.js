@@ -7,7 +7,7 @@ const ProjectsSection = () => {
             <h2>Projetos</h2>
             <ProjectsContainer>
                 <ProjectCard 
-                    name="Loja de HQ's da Marvel" 
+                    name="Loja de HQs da Marvel" 
                     key="lojaMarvel"
                     deployLink="https://marvelcomics-desafio-brenorosado.vercel.app/"
                     codeLink="https://github.com/brenorosado/desafio-front-end-neoapp"
